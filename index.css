@@ -1,1 +1,51 @@
-p {color = black}
+body {
+	background-color: #ABBBBA
+}
+h1 {
+	font-size: 20px;
+    font-style: bold;
+}
+
+.personal {
+	text-align: center;
+}
+
+h2 {
+	font-size: 16px;
+	
+}
+
+h3 {
+	font-style: bold;
+	font-size: 16px;
+}
+
+h5 {
+	font-style: bold;
+	font-size: 18px;
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: 050505;
+}
+
+h4 {
+	max-width: 900px;
+	margin-right: 60px;
+	margin-left: 60px;
+	font-size: 20px;
+    font-style: bold;
+}
+
+.dates {
+	text-align: right;
+	float: right;
+}
+.container {
+	max-width: 900px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.work_experience {
+	margin-left: 40px;
+	max-width: 860px;
+}
