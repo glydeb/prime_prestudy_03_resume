@@ -1,4 +1,4 @@
-html, body, header, main, section, article, h1, h2, h3, h4, h5, p, ul, li, div {
+html, body, header, main, footer, section, article, h1, h2, h3, h4, h5, p, ul, li, div, span, a {
     padding: 0;
     border: 0;
     margin: 0 0 0 0;
@@ -7,6 +7,7 @@ html, body, header, main, section, article, h1, h2, h3, h4, h5, p, ul, li, div {
 body {
 	background-color: #ABBBBA;
     max-width: 900px;
+	margin-bottom: 50px;
 }
 
 header {
@@ -16,12 +17,17 @@ header {
     font-size: 28px;
     padding: 10px 10px 20px 10px;
     border: 3px solid #000;
+    display: none;
 }
 
 header img {
 	float: left;
 	padding: 4px;
 	border: 2px solid #000;
+	overflow: hidden;
+	width: 126px;
+	height: 130px;
+	position: -126px 0;
 }
 
 header h1 {
@@ -40,7 +46,7 @@ header p, h1 {
 
 main {
 	background: no-repeat center/60% url(gray-pirate-ship-md.png);
-	margin-bottom: 50px;
+	display: none;
 }
 
 section { 
@@ -61,7 +67,9 @@ article p {
 	display: inline;
 	margin-left: 0px;
 }
-
+article:hover {
+	background-color: #ABBBBA;
+}
 h1 {
 	font-size: 24px;
     font-weight: bold;
@@ -88,6 +96,13 @@ h3 {
 ul {
 	margin: 5px 0 10px 30px;
 	font-size: 17px;
+}
+button {
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #090;
 }
 .school_list {
 	margin-left: 50px;
